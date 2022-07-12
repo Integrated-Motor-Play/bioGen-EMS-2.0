@@ -1,0 +1,44 @@
+int A = 0;
+int B = 1;
+int C = 2;
+int D = 3;
+
+void setup() {
+  pinMode(A, OUTPUT);
+  pinMode(B, OUTPUT);
+  pinMode(C, OUTPUT);
+  pinMode(D, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
+
+
+}
+
+void loop() {
+  analogWrite(dat, 100);
+  digitalWrite(A, LOW);
+  digitalWrite(B, LOW);
+  digitalWrite(C, LOW);
+  digitalWrite(D, HIGH);
+  digitalWrite(LED_BUILTIN, LOW); 
+  delay(3000);
+  digitalWrite(A, HIGH);
+  digitalWrite(B, LOW);
+  digitalWrite(C, LOW);
+  digitalWrite(D, LOW);
+  digitalWrite(LED_BUILTIN, HIGH); 
+  delay(3000);
+  digitalWrite(A, LOW);
+  digitalWrite(B, HIGH);
+  digitalWrite(C, LOW);
+  digitalWrite(D, LOW);
+  digitalWrite(LED_BUILTIN, LOW); 
+  delay(3000);
+  digitalWrite(A, LOW);
+  digitalWrite(B, LOW);
+  digitalWrite(C, HIGH);
+  digitalWrite(D, LOW);
+  digitalWrite(LED_BUILTIN, HIGH); 
+  delay(3000);
+
+
+}
