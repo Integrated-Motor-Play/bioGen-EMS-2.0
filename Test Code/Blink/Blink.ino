@@ -1,3 +1,4 @@
+// DEPRECATED: Stock Arduino example for board sanity check only.
 /*
   Blink
 

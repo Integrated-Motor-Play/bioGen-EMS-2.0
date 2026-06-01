@@ -1,0 +1,22 @@
+# SolidWorks lock files
+~$*
+
+# Arduino IDE
+*.tmp
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Editor
+.vscode/
+*.swp
+*~

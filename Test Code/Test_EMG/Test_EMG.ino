@@ -1,3 +1,6 @@
+// DEPRECATED: Use firmware/biogen_ems/biogen_ems.ino for production EMG + BLE.
+// This sketch uses C++ STL and may not compile on all Arduino cores.
+
 #include <algorithm>
 
 #include <iostream>

@@ -1,3 +1,6 @@
+// DEPRECATED: Use firmware/biogen_ems/biogen_ems.ino for production.
+// This sketch only cycles demux pins for hardware bring-up.
+
 int A = 1;
 int B = 2;
 int C = 3;
